@@ -1,4 +1,4 @@
-inport stremlit as st
+inport streamlit as st
 
 #w = float(input('請輸入體重(KG)？'))
 w = st.number_input('請輸入體重(KG)？')
